@@ -1,0 +1,49 @@
+# 🔹 Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🔹 Virtual environment
+venv/
+env/
+.venv/
+
+# 🔹 Environment variables (VERY IMPORTANT)
+.env
+
+# 🔹 Logs
+*.log
+
+# 🔹 Database files
+*.sqlite3
+*.db
+
+# 🔹 OS files
+.DS_Store
+Thumbs.db
+
+# 🔹 IDE / Editor
+.vscode/
+.idea/
+
+# 🔹 Python packaging
+build/
+dist/
+*.egg-info/
+
+# 🔹 Test / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# 🔹 Jupyter Notebook
+.ipynb_checkpoints/
+
+# 🔹 Gunicorn / runtime
+*.pid
+*.sock
+
+# 🔹 Azure specific (optional)
+.azure/
+
+.env
